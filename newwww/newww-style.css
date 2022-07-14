@@ -1,0 +1,51 @@
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    background: peru
+  }
+
+  img {
+    max-width: 300px;
+  }
+
+  p {
+    font-size: 25px;
+    font-family: arial;
+    color: #614051
+  }
+  .shapeshifter {
+    background: indianred;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform 2s, border-radius 5s, background 7s;
+    cursor: pointer;
+  }
+
+  .shapeshifter:hover {
+    background: #614051;
+    border-radius: 0;
+    transform: translate(-50%, -50%) scale(2);
+  }
+
+  .revealer {
+    color: #347235;
+    font-style: italic;
+  }
+
+  .hidden {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    opacity: 0;
+  }
+
+  .revealer:hover + .hidden {
+    opacity: 1;
+  }

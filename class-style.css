@@ -1,0 +1,45 @@
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    background: #c94c4c;
+  }
+  .header {
+    padding: 10px;
+    background: #b1cbbb;
+    margin: 20px;
+  }
+  .main-container {
+    padding: 10px;
+    background: #d96459;
+    margin: 20px;
+  }
+
+  h1 {
+    font-family: arial;
+    font-size: 50px;
+    font-style: bold;
+    text-align: center;
+    color: #deeaee;
+  }
+
+  p {
+    text-align: center;
+  }
+  a {
+    font-size: 30px;
+    font-family: arial;
+    text-decoration: none;
+    text-align: center;
+    color: #b1cbbb;
+  }
+
+  a:hover {
+    font-size: 45px;
+    text-decoration: underline;
+  }
+
+  a:visited {
+    color: #b1cbbb;
+  }

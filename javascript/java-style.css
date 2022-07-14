@@ -1,0 +1,44 @@
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .body {
+    background-color: : #34282C;
+  }
+
+  .sidebar {
+    width: 400px;
+    min-height: 500px;
+    background-color: lightslategray;
+    color: white;
+    font-size: 25px;
+    padding: 25px;
+    position: fixed;
+    top: 0;
+    right: -400px;
+    transition: .5s;
+    font-family: arial;
+  }
+  .active {
+    right: 0;
+  }
+
+  button {
+    background: mediumseagreen;
+    padding: 25px;
+    border: 1px solid darkgreen;
+    font-family: arial;
+
+  }
+
+  button:hover {
+    background-color: lightyellow;
+    font-family: arial;
+  }
+
+  .marquee {
+    width: 300px; /* the plugin works for responsive layouts so width is not necessary */
+    overflow: hidden;
+    border:1px solid #ccc;
+  }

@@ -1,0 +1,78 @@
+p {
+  background-color: orange;
+  font-size: 30px;
+}
+
+h1 {
+  color: firebrick;
+  background-color: sandybrown;
+  font-size: 60px;
+  font-family:'arial'
+}
+
+h2 {
+  color: orangered;
+  font-size: 45px;
+}
+small {
+  color: gold;
+  background-color: yellowgreen;
+  font-size: 15px;
+}
+strong {
+  color: coral;
+  font-size: 27px;
+  font-family:'verdana'
+}
+li {
+  color: darkolivegreen;
+  font-size: 24px;
+}
+
+}
+
+a {
+  color:red;
+  cursor: cell;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+a:hover {
+  color:green ;
+  text-decoration: none;
+  background-color: lightblue;
+  font-size: 30px;
+}
+
+a:visited {
+  color: oranred;
+  background-color: pruple;
+  font-size: 25px;
+}
+body {
+  color: khaki;
+  background-color: khaki;
+
+  }
+
+.special {
+  color: purple;
+  background-color: yellowgreen;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.special:visited {
+  color: beige;
+  background-color: yellowgreen;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.special:hover {
+  color: brown;
+  background-color: gold;
+  text-decoration: underline;
+  font-size: 25px;
+}

@@ -1,0 +1,27 @@
+p {
+  background-color: lightblue;
+  font-size: 40px;
+}
+
+a {
+  color:red;
+  cursor: cell;
+  text-decoration: none;
+}
+
+a:hover {
+  color:green ;
+  text-decoration: overline;
+  background-color: orange;
+  font-size: 30px;
+}
+
+a:visited {
+  color: orangered;
+}
+
+.special {
+  color: purple;
+  background-color: lightgreen;
+  font-size: 60px;
+}

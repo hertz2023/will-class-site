@@ -1,0 +1,209 @@
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;CX
+
+  }
+
+  .container {
+    background: linear-gradient(orangered, #8C001A);
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .top {
+    height: 75px;
+    width: 100%;
+    background: black;
+    position: fixed;
+    top: 0;
+
+  }
+
+  .bottom  {
+    height: 75px;
+    width: 100%;
+    background: black;
+    position: fixed;
+    bottom: 0;
+
+  }
+
+  .circle1 {
+    background: black;
+    width: 50px;
+    height: 50px;
+    top: -20%;
+    left: 25%;
+    border-radius: 50%;
+    position: absolute;
+    animation: fall1 15s infinite;
+    animation-delay: 3s;
+  }
+
+    .circle2 {
+      background: black;
+      width: 80px;
+      height: 80px;
+      top: -20%;
+      left: 30%;
+      border-radius: 50%;
+      position: absolute;
+      animation: fall1 15s infinite;
+      animation-delay: 4s;
+  }
+
+  .circle3 {
+    background: black;
+    width: 100px;
+    height: 100px;
+    top: -20%;
+    left: 55%;
+    border-radius: 50%;
+    position: absolute;
+    animation: fall1 15s infinite;
+    animation-delay: 0s;
+  }
+
+  .circle4 {
+    background: black;
+    width: 125px;
+    height: 125px;
+    top: -20%;
+    left: 75%;
+    border-radius: 50%;
+    position: absolute;
+    animation: fall1 15s infinite;
+    animation-delay: 5s;
+  }
+
+  .circle6 {
+    background: black;
+    width: 50px;
+    height: 50px;
+    top: -20%;
+    left: 85%;
+    border-radius: 50%;
+    position: absolute;
+    animation: fall1 15s infinite;
+    animation-delay: 9s;
+  }
+
+  .circle7 {
+    background: black;
+    width: 100px;
+    height: 100px;
+    top: -20%;
+    left: 7%;
+    border-radius: 50%;
+    position: absolute;
+    animation: fall1 15s infinite;
+    animation-delay: 3s;
+  }
+
+  .circle8 {
+    background: black;
+    width: 95px;
+    height: 95px;
+    top: -20%;
+    left: 15%;
+    border-radius: 50%;
+    position: absolute;
+    animation: fall1 15s infinite;
+    animation-delay: 6s;
+  }
+
+  .circle9 {
+    background: black;
+    width: 75px;
+    height: 75px;
+    top: -20%;
+    left: 12%;
+    border-radius: 50%;
+    position: absolute;
+    animation: fall1 15s infinite;
+    animation-delay: 4s;
+  }
+
+  .circle10 {
+    background: black;
+    width: 50px;
+    height: 50px;
+    top: -20%;
+    left: 88%;
+    border-radius: 50%;
+    position: absolute;
+    animation: fall1 15s infinite;
+    animation-delay: 0s;
+  }
+
+  .circle11 {
+    background: black;
+    width: 88px;
+    height: 88px;
+    top: -20%;
+    left: 29%;
+    border-radius: 50%;
+    position: absolute;
+    animation: fall1 15s infinite;
+    animation-delay: 10s;
+  }
+
+  .circle12 {
+    background: black;
+    width: 94px;
+    height: 94px;
+    top: -20%;
+    left: 55%;
+    border-radius: 50%;
+    position: absolute;
+    animation: fall1 15s infinite;
+    animation-delay: 3s;
+  }
+
+  .circle13 {
+    background: black;
+    width: 107px;
+    height: 107px;
+    top: -20%;
+    left: 42%;
+    border-radius: 50%;
+    position: absolute;
+    animation: fall1 15s infinite;
+    animation-delay: 6s;
+  }
+
+  .circle14 {
+    background: black;
+    width: 163px;
+    height: 163px;
+    top: -20%;
+    left: 24%;
+    border-radius: 50%;
+    position: absolute;
+    animation: fall1 15s infinite;
+    animation-delay: 2s;
+  }
+
+  .circle15 {
+    background: black;
+    width: 156px;
+    height: 156px;
+    top: -20%;
+    left: 89%;
+    border-radius: 50%;
+    position: absolute;
+    animation: fall1 15s infinite;
+    animation-delay: 5s;
+  }
+
+  @keyframes fall1 {
+    0% {top: -20%;}
+    20% {top: 0%;}
+    80% {top: 85%;}
+    100% {top: 100%;}
+  }
