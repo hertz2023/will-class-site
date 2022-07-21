@@ -26,6 +26,7 @@
 
   p {
     text-align: center;
+
   }
   a {
     font-size: 30px;
@@ -33,13 +34,20 @@
     text-decoration: none;
     text-align: center;
     color: #b1cbbb;
+    transition: 1s:
   }
 
   a:hover {
     font-size: 45px;
-    text-decoration: underline;
+    text-decoration: none;
+    color: #008080;
+    transition: 3s;
   }
 
   a:visited {
     color: #b1cbbb;
+  }
+
+  img {
+    align: center;
   }
